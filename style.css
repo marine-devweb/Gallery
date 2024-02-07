@@ -48,3 +48,10 @@ h1 {
     font-size: 30px;
     cursor: pointer;
 }
+
+/* Image à l'interieur du modal */
+#modal-content {
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
