@@ -39,7 +39,7 @@ h1 {
     z-index: 10;
 }
 
-/* Bouton pour la fermeture du modal */
+/* fermeture du modal */
 #modal-close-button {
     position: absolute;
     top: 5px;
