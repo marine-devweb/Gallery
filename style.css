@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    text-align: center;
+    margin: 50px 0px;
+}
+  
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+}
+
+.thumbnail {
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    transition: transform 0.3s;
+}
+  
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+
